@@ -13,7 +13,7 @@ from geodata import (
 )
 from simulation_engine import simulate_product_factory_assignments, generate_recommendations, compute_system_kpis
 
-# Page Configuration
+# Page Setup
 st.set_page_config(
     page_title="Nassau Candy | Factory Reallocation & Shipping Optimization",
     page_icon="🍬",
@@ -21,36 +21,30 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
-# Custom High-End Enterprise Styling: Crisp White Main Area + Colored Gradient Sidebar
+# Custom High-End Styling: Pure White Canvas + Vibrant Sidebar & Executive Cards
 st.markdown("""
 <style>
-    /* Google Fonts */
     @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap');
     
     html, body, [class*="css"] {
-        font-family: 'Plus Jakarta Sans', sans-serif;
+        font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
     }
     
-    /* Main Background: Pure Crisp White */
+    /* Main Background: Pure Clean White */
     .stApp {
-        background-color: #FFFFFF;
-        color: #0F172A;
+        background-color: #FFFFFF !important;
+        color: #0F172A !important;
     }
-    
-    /* Sidebar: Vibrant Royal Midnight Gradient */
+
+    /* Sidebar: Rich Royal Midnight Indigo Gradient */
     [data-testid="stSidebar"] {
-        background: linear-gradient(180deg, #1E1B4B 0%, #1E293B 50%, #0F172A 100%) !important;
-        border-right: 1px solid #334155;
+        background: linear-gradient(180deg, #1E1B4B 0%, #172554 45%, #0F172A 100%) !important;
+        border-right: 1px solid #334155 !important;
+        box-shadow: 4px 0 20px rgba(0, 0, 0, 0.15);
     }
     
     [data-testid="stSidebar"] * {
         color: #F8FAFC !important;
-    }
-    
-    /* Sidebar Headings & Labels */
-    [data-testid="stSidebar"] h1, [data-testid="stSidebar"] h2, [data-testid="stSidebar"] h3 {
-        color: #FFFFFF !important;
-        font-weight: 700;
     }
     
     [data-testid="stSidebar"] .stSelectbox label, 
@@ -58,17 +52,17 @@ st.markdown("""
     [data-testid="stSidebar"] .stSlider label {
         color: #E2E8F0 !important;
         font-weight: 600;
-        font-size: 0.9rem;
+        font-size: 0.88rem;
     }
 
-    /* Hero Banner on White Background */
+    /* Hero Banner */
     .hero-banner {
-        background: linear-gradient(135deg, #F8FAFC 0%, #EEF2F6 100%);
+        background: linear-gradient(135deg, #F8FAFC 0%, #F1F5F9 100%);
         border: 1px solid #E2E8F0;
         border-radius: 16px;
-        padding: 1.8rem 2.2rem;
-        margin-bottom: 1.8rem;
-        box-shadow: 0 4px 20px -2px rgba(15, 23, 42, 0.05);
+        padding: 1.6rem 2.0rem;
+        margin-bottom: 1.6rem;
+        box-shadow: 0 4px 20px -2px rgba(15, 23, 42, 0.04);
         position: relative;
         overflow: hidden;
     }
@@ -84,19 +78,19 @@ st.markdown("""
     }
 
     .hero-title {
-        font-size: 2.2rem;
+        font-size: 2.1rem;
         font-weight: 800;
         color: #0F172A;
         letter-spacing: -0.02em;
-        margin-bottom: 0.4rem;
+        margin-bottom: 0.3rem;
         line-height: 1.2;
     }
     
     .hero-subtitle {
-        font-size: 1.05rem;
+        font-size: 1.02rem;
         color: #475569;
         font-weight: 500;
-        margin-bottom: 1rem;
+        margin-bottom: 0.9rem;
     }
 
     .badge-pill {
@@ -106,23 +100,24 @@ st.markdown("""
         font-size: 0.78rem;
         font-weight: 600;
         margin-right: 8px;
+        margin-bottom: 4px;
     }
     
     .badge-indigo {
         background-color: #EEF2FF;
-        color: #4338CA;
+        color: #4338CA !important;
         border: 1px solid #C7D2FE;
     }
     
     .badge-teal {
         background-color: #F0FDFA;
-        color: #0F766E;
+        color: #0F766E !important;
         border: 1px solid #99F6E4;
     }
     
     .badge-amber {
         background-color: #FFFBEB;
-        color: #B45309;
+        color: #B45309 !important;
         border: 1px solid #FDE68A;
     }
 
@@ -131,7 +126,7 @@ st.markdown("""
         background: #FFFFFF;
         border: 1px solid #E2E8F0;
         border-radius: 14px;
-        padding: 1.3rem 1rem;
+        padding: 1.2rem 0.9rem;
         text-align: center;
         box-shadow: 0 4px 14px 0 rgba(15, 23, 42, 0.04);
         position: relative;
@@ -151,16 +146,16 @@ st.markdown("""
     .kpi-stripe-amber   { border-top: 4px solid #F59E0B; }
 
     .kpi-label {
-        font-size: 0.78rem;
+        font-size: 0.76rem;
         font-weight: 700;
         color: #64748B;
         text-transform: uppercase;
         letter-spacing: 0.06em;
-        margin-bottom: 0.3rem;
+        margin-bottom: 0.25rem;
     }
 
     .kpi-value {
-        font-size: 2.0rem;
+        font-size: 1.95rem;
         font-weight: 800;
         color: #0F172A;
         line-height: 1.1;
@@ -168,46 +163,8 @@ st.markdown("""
     }
 
     .kpi-subtitle {
-        font-size: 0.75rem;
+        font-size: 0.74rem;
         font-weight: 600;
-    }
-
-    /* Section Cards inside tabs */
-    .content-box {
-        background-color: #FFFFFF;
-        border: 1px solid #E2E8F0;
-        border-radius: 12px;
-        padding: 1.4rem;
-        margin-bottom: 1.2rem;
-        box-shadow: 0 2px 8px rgba(15, 23, 42, 0.03);
-    }
-    
-    /* Styled Badges for Tables */
-    .tag-low {
-        background-color: #DCFCE7;
-        color: #166534;
-        padding: 3px 10px;
-        border-radius: 6px;
-        font-weight: 600;
-        font-size: 0.8rem;
-    }
-    
-    .tag-med {
-        background-color: #FEF3C7;
-        color: #92400E;
-        padding: 3px 10px;
-        border-radius: 6px;
-        font-weight: 600;
-        font-size: 0.8rem;
-    }
-    
-    .tag-high {
-        background-color: #FEE2E2;
-        color: #991B1B;
-        padding: 3px 10px;
-        border-radius: 6px;
-        font-weight: 600;
-        font-size: 0.8rem;
     }
 
     /* Tabs Styling */
@@ -222,9 +179,9 @@ st.markdown("""
         border-radius: 8px 8px 0px 0px;
         border: 1px solid #E2E8F0;
         border-bottom: none;
-        color: #475569;
+        color: #475569 !important;
         font-weight: 600;
-        padding: 10px 18px;
+        padding: 9px 18px;
     }
 
     .stTabs [aria-selected="true"] {
@@ -236,13 +193,13 @@ st.markdown("""
     /* Dataframe polish */
     [data-testid="stDataFrame"] {
         border: 1px solid #E2E8F0;
-        border-radius: 8px;
+        border-radius: 10px;
         overflow: hidden;
     }
 </style>
 """, unsafe_allow_html=True)
 
-# Cache data loading
+# Load data with caching
 @st.cache_data
 def load_data():
     if os.path.exists("nassau_candy_enriched.csv"):
@@ -264,7 +221,7 @@ def load_metrics():
 df_raw = load_data()
 model_metrics = load_metrics()
 
-# ================= SIDEBAR: VIBRANT COLORFUL GRADIENT =================
+# ================= SIDEBAR: VIBRANT COLORFUL GRADIENT & CONTROLS =================
 with st.sidebar:
     st.markdown("""
     <div style='text-align: center; padding: 0.5rem 0 1rem 0;'>
@@ -274,72 +231,109 @@ with st.sidebar:
     </div>
     """, unsafe_allow_html=True)
     
-    st.markdown("<hr style='border: 0; height: 1px; background: #334155; margin: 0.5rem 0 1.2rem 0;'/>", unsafe_allow_html=True)
-    st.markdown("### 🎛️ Optimization Filters")
+    st.markdown("<hr style='border: 0; height: 1px; background: #334155; margin: 0.2rem 0 1.0rem 0;'/>", unsafe_allow_html=True)
+    st.markdown("### 🎛️ Optimization Controls")
+    
+    all_products = sorted(df_raw['Product Name'].unique().tolist())
+    all_regions = sorted(df_raw['Region'].unique().tolist())
+    all_modes = sorted(df_raw['Ship Mode'].unique().tolist())
     
     # 1. Product selector
-    all_products = sorted(df_raw['Product Name'].unique().tolist())
-    selected_product = st.selectbox("Product SKU Focus", ["All Products"] + all_products)
+    selected_product = st.selectbox(
+        "Product SKU Focus",
+        ["All Products"] + all_products,
+        index=0,
+        help="Focus simulation on a specific product SKU or analyze the entire catalog."
+    )
     
     # 2. Region filter
-    all_regions = sorted(df_raw['Region'].unique().tolist())
-    selected_region = st.multiselect("Destination Market Regions", all_regions, default=all_regions)
+    selected_region = st.multiselect(
+        "Destination Market Regions",
+        all_regions,
+        default=all_regions,
+        help="Filter shipments by customer destination region."
+    )
     
     # 3. Ship mode filter
-    all_modes = sorted(df_raw['Ship Mode'].unique().tolist())
-    selected_ship_modes = st.multiselect("Shipping Modes", all_modes, default=all_modes)
+    selected_ship_modes = st.multiselect(
+        "Shipping Modes",
+        all_modes,
+        default=all_modes,
+        help="Filter shipments by carrier speed mode."
+    )
     
-    st.markdown("<hr style='border: 0; height: 1px; background: #334155; margin: 1.2rem 0;'/>", unsafe_allow_html=True)
+    st.markdown("<hr style='border: 0; height: 1px; background: #334155; margin: 1.0rem 0;'/>", unsafe_allow_html=True)
     st.markdown("### ⚖️ Multi-Objective Priority")
-    st.markdown("<span style='font-size: 0.8rem; color: #CBD5E1;'>Slide to balance logistics speed vs. factory reallocation expense:</span>", unsafe_allow_html=True)
+    st.markdown("<span style='font-size: 0.8rem; color: #CBD5E1;'>Slide to balance transit speed vs. factory reallocation expense:</span>", unsafe_allow_html=True)
     
+    # 4. Priority Weight Slider (Speed vs Profit)
     speed_priority = st.slider(
-        "Priority Weight",
+        "Optimization Priority",
         min_value=0.0,
         max_value=1.0,
         value=0.60,
         step=0.05,
-        help="0.0 = Minimum Capital Risk & Maximum Profit | 1.0 = Maximum Delivery Speed & Minimum Transit Lead Time"
+        help="0.0 = Pure Profit & Zero Re-tooling Risk | 1.0 = Pure Speed & Maximum Lead Time Reduction"
     )
     
     speed_pct = int(speed_priority * 100)
     profit_pct = int((1.0 - speed_priority) * 100)
     
     st.markdown(f"""
-    <div style='background: rgba(15, 23, 42, 0.6); padding: 10px 14px; border-radius: 8px; border: 1px solid #334155; margin-top: 6px;'>
-        <div style='display: flex; justify-content: space-between; font-size: 0.8rem;'>
+    <div style='background: rgba(15, 23, 42, 0.7); padding: 10px 14px; border-radius: 8px; border: 1px solid #334155; margin-top: 6px;'>
+        <div style='display: flex; justify-content: space-between; font-size: 0.82rem;'>
             <span>⚡ Transit Speed: <b style='color:#38BDF8;'>{speed_pct}%</b></span>
             <span>💰 Margin Guard: <b style='color:#34D399;'>{profit_pct}%</b></span>
         </div>
     </div>
     """, unsafe_allow_html=True)
     
-    st.markdown("<hr style='border: 0; height: 1px; background: #334155; margin: 1.2rem 0;'/>", unsafe_allow_html=True)
+    st.markdown("<hr style='border: 0; height: 1px; background: #334155; margin: 1.0rem 0;'/>", unsafe_allow_html=True)
+    
+    # 5. Top-N recommendation count
     top_n = st.slider("Top Recommendations Count", min_value=1, max_value=10, value=5)
     
+    # Reset filter button
+    if st.button("🔄 Reset to Default Parameters", use_container_width=True):
+        st.rerun()
+        
     st.markdown("""
-    <div style='text-align: center; margin-top: 2rem; font-size: 0.72rem; color: #64748B;'>
-        Unified Mentor Capstone Edition<br/>
-        Enterprise Decision Intelligence v2.4
+    <div style='text-align: center; margin-top: 1.5rem; font-size: 0.72rem; color: #64748B;'>
+        Unified Mentor Capstone Platform<br/>
+        Live Simulation Engine v2.4
     </div>
     """, unsafe_allow_html=True)
 
-# Filter dataset based on sidebar controls
+# Reactive Filtering: Guard against empty selections
 filtered_df = df_raw.copy()
+
 if selected_product != "All Products":
     filtered_df = filtered_df[filtered_df['Product Name'] == selected_product]
+
 if selected_region:
     filtered_df = filtered_df[filtered_df['Region'].isin(selected_region)]
+else:
+    st.sidebar.warning("Select at least one region. Defaulting to all regions.")
+    filtered_df = filtered_df[filtered_df['Region'].isin(all_regions)]
+
 if selected_ship_modes:
     filtered_df = filtered_df[filtered_df['Ship Mode'].isin(selected_ship_modes)]
+else:
+    st.sidebar.warning("Select at least one ship mode. Defaulting to all modes.")
+    filtered_df = filtered_df[filtered_df['Ship Mode'].isin(all_modes)]
 
-# Execute simulation engine
-sim_df = simulate_product_factory_assignments(df_raw, speed_weight=speed_priority)
+# Ensure data is not empty
+if filtered_df.empty:
+    st.warning("No orders match the selected filter combination. Resetting to full catalog.")
+    filtered_df = df_raw.copy()
+
+# Execute reactive simulation engine
+sim_df = simulate_product_factory_assignments(filtered_df, speed_weight=speed_priority)
 recs_df = generate_recommendations(sim_df, top_n=top_n)
 kpis = compute_system_kpis(sim_df, recs_df)
 
 # ================= HERO BANNER ON CLEAN WHITE BACKGROUND =================
-st.markdown("""
+st.markdown(f"""
 <div class="hero-banner">
     <div class="hero-title">Factory Reallocation & Shipping Optimization</div>
     <div class="hero-subtitle">
@@ -347,7 +341,7 @@ st.markdown("""
     </div>
     <div>
         <span class="badge-pill badge-indigo">⚡ Champion ML Model: Gradient Boosting / Linear (R² = 0.9699)</span>
-        <span class="badge-pill badge-teal">📦 10,194 Orders Audited</span>
+        <span class="badge-pill badge-teal">📦 {len(filtered_df):,} Orders in Active Scope</span>
         <span class="badge-pill badge-amber">🏭 5 Manufacturing Facilities Connected</span>
     </div>
 </div>
@@ -403,7 +397,7 @@ with k5:
 
 st.write("")
 
-# ================= MAIN TABS =================
+# ================= MAIN MODULE TABS =================
 tab1, tab2, tab3, tab4, tab5, tab6 = st.tabs([
     "🎯 Factory Simulator",
     "🔮 What-If Scenarios",
@@ -418,9 +412,20 @@ with tab1:
     st.markdown("### 🎯 Single-Product Reassignment Simulator")
     st.markdown("Select any confectionery SKU to simulate predicted shipping lead time and composite score across all 5 candidate manufacturing plants.")
     
-    sim_prod = st.selectbox("Select Confectionery Product to Simulate", all_products, index=0, key="sim_prod_select")
-    prod_sim_data = sim_df[sim_df['Product Name'] == sim_prod].sort_values(by="Composite Score", ascending=False)
+    # Default selection syncs with sidebar if user picked a single product
+    default_sim_idx = 0
+    if selected_product != "All Products" and selected_product in all_products:
+        default_sim_idx = all_products.index(selected_product)
+        
+    sim_prod = st.selectbox("Select Confectionery Product to Simulate", all_products, index=default_sim_idx, key="sim_prod_select")
     
+    # If the product isn't in filtered data, fall back to df_raw for this single product
+    if sim_prod in sim_df['Product Name'].values:
+        prod_sim_data = sim_df[sim_df['Product Name'] == sim_prod].sort_values(by="Composite Score", ascending=False)
+    else:
+        single_prod_sim = simulate_product_factory_assignments(df_raw[df_raw['Product Name'] == sim_prod], speed_weight=speed_priority)
+        prod_sim_data = single_prod_sim.sort_values(by="Composite Score", ascending=False)
+        
     curr_factory_row = prod_sim_data[prod_sim_data['Is Current']].iloc[0]
     best_factory_row = prod_sim_data.iloc[0]
     
