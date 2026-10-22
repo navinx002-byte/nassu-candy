@@ -1,0 +1,44 @@
+{
+    "best_model": "Linear Regression",
+    "models": {
+        "Linear Regression": {
+            "train_rmse": 0.2473,
+            "test_rmse": 0.242,
+            "train_mae": 0.1973,
+            "test_mae": 0.194,
+            "train_r2": 0.9683,
+            "test_r2": 0.9699
+        },
+        "Random Forest": {
+            "train_rmse": 0.1986,
+            "test_rmse": 0.2576,
+            "train_mae": 0.1563,
+            "test_mae": 0.2055,
+            "train_r2": 0.9796,
+            "test_r2": 0.9659
+        },
+        "Gradient Boosting": {
+            "train_rmse": 0.2315,
+            "test_rmse": 0.2469,
+            "train_mae": 0.1836,
+            "test_mae": 0.1971,
+            "train_r2": 0.9723,
+            "test_r2": 0.9686
+        }
+    },
+    "feature_names": {
+        "categorical": [
+            "Product Name",
+            "Origin Factory",
+            "Region",
+            "Ship Mode",
+            "Division"
+        ],
+        "numerical": [
+            "Distance_km",
+            "Units",
+            "Sales",
+            "Cost"
+        ]
+    }
+}

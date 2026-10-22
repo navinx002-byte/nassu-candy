@@ -1,0 +1,75 @@
+Origin Factory,Region,Ship Mode,order_count,avg_distance_km,avg_lead_time,total_units,avg_units,total_sales,total_profit,avg_profit_margin,Cluster,Cluster_Label,Severity,Action
+Lot's O' Nuts,Atlantic,First Class,300,3278.1963776511907,3.6571384505085636,1142,3.8066666666666666,4073.25,2813.35,0.68936113764194,0,Optimal Low-Friction Routes,Low,Sustain current operational parameters
+Lot's O' Nuts,Atlantic,Same Day,89,3196.1703424859707,2.6183007330078243,304,3.4157303370786516,1082.41,751.41,0.6946313526430071,0,Optimal Low-Friction Routes,Low,Sustain current operational parameters
+Lot's O' Nuts,Atlantic,Second Class,304,3314.13272145987,5.148183839088472,1149,3.7796052631578947,4097.35,2833.05,0.69164090383552,0,Optimal Low-Friction Routes,Low,Sustain current operational parameters
+Lot's O' Nuts,Atlantic,Standard Class,968,3326.6229907325355,6.668276479188365,3619,3.7386363636363638,12913.12,8917.82,0.6907868901307948,3,Moderate Lead-Time Bottleneck,Medium,Evaluate factory switch or expedited logistics
+Lot's O' Nuts,Gulf,First Class,126,2676.316187276605,3.3263718940915803,450,3.5714285714285716,1605.3700000000001,1109.67,0.6918854828358171,0,Optimal Low-Friction Routes,Low,Sustain current operational parameters
+Lot's O' Nuts,Gulf,Same Day,49,2651.79638481653,2.2787485584897587,199,4.061224489795919,708.92,487.82,0.6877960353195719,0,Optimal Low-Friction Routes,Low,Sustain current operational parameters
+Lot's O' Nuts,Gulf,Second Class,183,2687.9809825255293,4.836835882660333,678,3.7049180327868854,2414.62,1671.62,0.6923972213088658,0,Optimal Low-Friction Routes,Low,Sustain current operational parameters
+Lot's O' Nuts,Gulf,Standard Class,539,2650.4850235948743,6.332478339433732,2046,3.795918367346939,7294.21,5044.31,0.6917917553406706,3,Moderate Lead-Time Bottleneck,Medium,Evaluate factory switch or expedited logistics
+Lot's O' Nuts,Interior,First Class,165,1889.7091606998993,2.9710723584398915,645,3.909090909090909,2299.23,1590.13,0.6916944034422544,2,High-Volume Core Lanes,Low,Maintain dedicated batch production
+Lot's O' Nuts,Interior,Same Day,64,1924.9864152104383,1.9598671135152752,212,3.3125,754.84,521.34,0.6914584825692455,2,High-Volume Core Lanes,Low,Maintain dedicated batch production
+Lot's O' Nuts,Interior,Second Class,275,1940.696037721004,4.496131303367043,1035,3.7636363636363637,3681.12,2554.22,0.6943020462504703,0,Optimal Low-Friction Routes,Low,Sustain current operational parameters
+Lot's O' Nuts,Interior,Standard Class,817,1900.3837477296179,5.957320216511604,3120,3.8188494492044063,11121.67,7687.87,0.6918659206600273,3,Moderate Lead-Time Bottleneck,Medium,Evaluate factory switch or expedited logistics
+Lot's O' Nuts,Pacific,First Class,299,931.9147739972743,2.458511389382176,1087,3.6354515050167224,3872.06,2686.86,0.6946952007061636,2,High-Volume Core Lanes,Low,Maintain dedicated batch production
+Lot's O' Nuts,Pacific,Same Day,103,981.3207597297915,1.4808739671209175,354,3.436893203883495,1263.29,872.69,0.6918943939070793,2,High-Volume Core Lanes,Low,Maintain dedicated batch production
+Lot's O' Nuts,Pacific,Second Class,358,987.0952559036378,4.004785983372396,1285,3.589385474860335,4591.13,3161.33,0.6899974921697001,2,High-Volume Core Lanes,Low,Maintain dedicated batch production
+Lot's O' Nuts,Pacific,Standard Class,1053,988.4242585208425,5.491035931543462,4087,3.8812915479582144,14567.56,10067.56,0.6914577987484705,3,Moderate Lead-Time Bottleneck,Medium,Evaluate factory switch or expedited logistics
+Secret Factory,Atlantic,First Class,17,1212.9065296132583,2.630896532672443,73,4.294117647058823,747.5,374.7,0.5094117647058823,2,High-Volume Core Lanes,Low,Maintain dedicated batch production
+Secret Factory,Atlantic,Same Day,3,1334.1376526529314,2.028866283337481,14,4.666666666666667,148.75,74.55,0.5066666666666667,2,High-Volume Core Lanes,Low,Maintain dedicated batch production
+Secret Factory,Atlantic,Second Class,8,1356.5626608738894,4.179700272190999,30,3.75,431.25,215.85,0.5075000000000001,2,High-Volume Core Lanes,Low,Maintain dedicated batch production
+Secret Factory,Atlantic,Standard Class,44,1215.8813254915788,5.496113943182606,191,4.340909090909091,1663.75,834.75,0.5113636363636364,2,High-Volume Core Lanes,Low,Maintain dedicated batch production
+Secret Factory,Gulf,First Class,5,884.2762592316521,2.4781224424005552,27,5.4,108.75,54.95,0.516,2,High-Volume Core Lanes,Low,Maintain dedicated batch production
+Secret Factory,Gulf,Same Day,1,1136.1203952674182,1.4520965902572225,4,4.0,5.0,2.6,0.52,2,High-Volume Core Lanes,Low,Maintain dedicated batch production
+Secret Factory,Gulf,Second Class,12,1173.6624690900014,4.271751180972798,45,3.75,225.0,113.4,0.515,2,High-Volume Core Lanes,Low,Maintain dedicated batch production
+Secret Factory,Gulf,Standard Class,19,996.4749249814989,5.549688057827704,85,4.473684210526316,591.25,309.05,0.528421052631579,2,High-Volume Core Lanes,Low,Maintain dedicated batch production
+Secret Factory,Interior,First Class,10,820.9161623048564,2.423613899991156,47,4.7,227.5,114.7,0.518,2,High-Volume Core Lanes,Low,Maintain dedicated batch production
+Secret Factory,Interior,Same Day,3,375.6853836679184,1.1449662009890613,13,4.333333333333333,91.25,45.849999999999994,0.5133333333333333,2,High-Volume Core Lanes,Low,Maintain dedicated batch production
+Secret Factory,Interior,Second Class,9,817.9836761364008,3.925187618009965,45,5.0,581.25,291.05,0.508888888888889,2,High-Volume Core Lanes,Low,Maintain dedicated batch production
+Secret Factory,Interior,Standard Class,23,657.903276886571,5.280304646441092,81,3.5217391304347827,690.0,355.2,0.5252173913043479,2,High-Volume Core Lanes,Low,Maintain dedicated batch production
+Secret Factory,Pacific,First Class,15,2237.130323077543,2.9839089452482224,50,3.3333333333333335,696.25,366.45,0.528,0,Optimal Low-Friction Routes,Low,Sustain current operational parameters
+Secret Factory,Pacific,Same Day,4,2079.146750936872,2.0274508422964304,16,4.0,57.5,29.1,0.515,2,High-Volume Core Lanes,Low,Maintain dedicated batch production
+Secret Factory,Pacific,Second Class,14,2496.4672710981176,4.74130112988467,55,3.9285714285714284,631.25,316.25,0.5114285714285715,0,Optimal Low-Friction Routes,Low,Sustain current operational parameters
+Secret Factory,Pacific,Standard Class,30,2328.4453463516634,6.128247662537315,108,3.6,1691.25,846.25,0.5073333333333333,0,Optimal Low-Friction Routes,Low,Sustain current operational parameters
+Sugar Shack,Atlantic,First Class,2,1935.0385050157624,3.187048773013684,5,2.5,16.99,10.24,0.6115577889447237,0,Optimal Low-Friction Routes,Low,Sustain current operational parameters
+Sugar Shack,Atlantic,Same Day,1,1367.987942880378,1.795669874142475,4,4.0,7.96,4.96,0.6231155778894473,2,High-Volume Core Lanes,Low,Maintain dedicated batch production
+Sugar Shack,Atlantic,Second Class,1,1935.0385050157624,4.772970423752056,5,5.0,7.5,3.5,0.4666666666666667,2,High-Volume Core Lanes,Low,Maintain dedicated batch production
+Sugar Shack,Atlantic,Standard Class,14,1886.4516432762005,5.922213413855134,47,3.357142857142857,86.16,45.11,0.5161282603493659,0,Optimal Low-Friction Routes,Low,Sustain current operational parameters
+Sugar Shack,Gulf,Second Class,1,1581.0112959435694,4.294132897787447,1,1.0,1.5,0.6,0.3999999999999999,0,Optimal Low-Friction Routes,Low,Sustain current operational parameters
+Sugar Shack,Gulf,Standard Class,3,2416.2321979062162,6.080944969302078,15,5.0,36.89,22.64,0.6154103852596315,0,Optimal Low-Friction Routes,Low,Sustain current operational parameters
+Sugar Shack,Interior,First Class,2,1006.4364225866245,2.5148572975614236,3,1.5,9.49,5.74,0.6115577889447237,0,Optimal Low-Friction Routes,Low,Sustain current operational parameters
+Sugar Shack,Interior,Second Class,2,1433.123468068571,4.272546788700863,5,2.5,7.5,3.2,0.43333333333333335,0,Optimal Low-Friction Routes,Low,Sustain current operational parameters
+Sugar Shack,Interior,Standard Class,4,1509.7910386141302,5.666459489321376,14,3.5,27.75,14.45,0.49999999999999994,0,Optimal Low-Friction Routes,Low,Sustain current operational parameters
+Sugar Shack,Pacific,Second Class,1,2408.7152451269853,4.388641434131448,4,4.0,6.0,2.8,0.4666666666666666,0,Optimal Low-Friction Routes,Low,Sustain current operational parameters
+Sugar Shack,Pacific,Standard Class,2,1968.6946198834107,6.18088675785957,4,2.0,13.24,7.99,0.6115577889447237,0,Optimal Low-Friction Routes,Low,Sustain current operational parameters
+The Other Factory,Atlantic,First Class,5,1398.354267465796,2.6277537621045552,24,4.8,78.0,6.0,0.0769230769230769,1,Optimal Low-Friction Routes,Low,Sustain current operational parameters
+The Other Factory,Atlantic,Same Day,2,1469.5684894327005,2.055240271180418,6,3.0,19.5,1.5,0.0769230769230769,1,Optimal Low-Friction Routes,Low,Sustain current operational parameters
+The Other Factory,Atlantic,Second Class,8,1505.4611388274773,4.2098665435313105,34,4.25,110.5,8.5,0.0769230769230769,1,Optimal Low-Friction Routes,Low,Sustain current operational parameters
+The Other Factory,Atlantic,Standard Class,23,1486.2344689013448,5.646528363873392,90,3.9130434782608696,298.75,38.75,0.10739502043849869,1,Optimal Low-Friction Routes,Low,Sustain current operational parameters
+The Other Factory,Gulf,First Class,4,799.1943489965606,2.342800946297402,13,3.25,42.25,3.25,0.0769230769230769,1,Optimal Low-Friction Routes,Low,Sustain current operational parameters
+The Other Factory,Gulf,Same Day,3,856.9181438503223,1.371743528187569,11,3.6666666666666665,38.25,9.25,0.31054131054131057,2,High-Volume Core Lanes,Low,Maintain dedicated batch production
+The Other Factory,Gulf,Second Class,3,539.032085738043,3.6753343319207343,8,2.6666666666666665,26.0,2.0,0.0769230769230769,1,Optimal Low-Friction Routes,Low,Sustain current operational parameters
+The Other Factory,Gulf,Standard Class,9,492.3517247952648,5.310056512864806,48,5.333333333333333,156.0,12.0,0.0769230769230769,1,Optimal Low-Friction Routes,Low,Sustain current operational parameters
+The Other Factory,Interior,First Class,2,781.697126509067,2.04499726662753,7,3.5,22.75,1.75,0.0769230769230769,1,Optimal Low-Friction Routes,Low,Sustain current operational parameters
+The Other Factory,Interior,Second Class,2,810.2966960254023,3.8938595193673633,6,3.0,19.5,1.5,0.0769230769230769,1,Optimal Low-Friction Routes,Low,Sustain current operational parameters
+The Other Factory,Interior,Standard Class,7,774.232970740807,5.347510828114388,26,3.7142857142857144,84.5,6.5,0.0769230769230769,1,Optimal Low-Friction Routes,Low,Sustain current operational parameters
+The Other Factory,Pacific,First Class,6,2188.504641462702,3.05530615313427,20,3.3333333333333335,71.25,21.25,0.19373219373219372,1,Optimal Low-Friction Routes,Low,Sustain current operational parameters
+The Other Factory,Pacific,Same Day,2,2790.1528430508997,2.4281466964896525,7,3.5,22.75,1.75,0.0769230769230769,1,Optimal Low-Friction Routes,Low,Sustain current operational parameters
+The Other Factory,Pacific,Second Class,8,2477.2302303926954,4.7655887056439035,30,3.75,97.5,7.5,0.0769230769230769,1,Optimal Low-Friction Routes,Low,Sustain current operational parameters
+The Other Factory,Pacific,Standard Class,16,2689.5176412005776,6.242859707966537,58,3.625,194.75,30.75,0.1207264957264957,1,Optimal Low-Friction Routes,Low,Sustain current operational parameters
+Wicked Choccy's,Atlantic,First Class,172,1101.9467740954976,2.5622198089310313,584,3.395348837209302,2059.5,1342.06,0.6513297555158021,2,High-Volume Core Lanes,Low,Maintain dedicated batch production
+Wicked Choccy's,Atlantic,Same Day,64,1080.2680752942863,1.5870525483655826,260,4.0625,898.5,584.98,0.6509615384615385,2,High-Volume Core Lanes,Low,Maintain dedicated batch production
+Wicked Choccy's,Atlantic,Second Class,227,1130.049981664057,4.075357255587013,856,3.7709251101321586,3024.0,1970.72,0.6514356715237772,2,High-Volume Core Lanes,Low,Maintain dedicated batch production
+Wicked Choccy's,Atlantic,Standard Class,734,1162.717264071987,5.587569585993687,2722,3.7084468664850134,9432.5,6141.9,0.6510249423600922,3,Moderate Lead-Time Bottleneck,Medium,Evaluate factory switch or expedited logistics
+Wicked Choccy's,Gulf,First Class,99,622.802000965914,2.314698806499518,340,3.4343434343434343,1181.0,769.08,0.650929810929811,2,High-Volume Core Lanes,Low,Maintain dedicated batch production
+Wicked Choccy's,Gulf,Same Day,30,423.03394998824086,1.1343471113706596,110,3.6666666666666665,379.5,247.06,0.6512820512820513,2,High-Volume Core Lanes,Low,Maintain dedicated batch production
+Wicked Choccy's,Gulf,Second Class,130,606.0709907674498,3.7750910351121547,562,4.323076923076923,1947.5,1268.1,0.651155818540434,2,High-Volume Core Lanes,Low,Maintain dedicated batch production
+Wicked Choccy's,Gulf,Standard Class,404,607.7318283039417,5.286184003213461,1567,3.878712871287129,5485.25,3573.27,0.6513937547600914,3,Moderate Lead-Time Bottleneck,Medium,Evaluate factory switch or expedited logistics
+Wicked Choccy's,Interior,First Class,124,1452.0986521114894,2.7366109690295186,462,3.725806451612903,1602.0,1043.16,0.650951199338296,2,High-Volume Core Lanes,Low,Maintain dedicated batch production
+Wicked Choccy's,Interior,Same Day,53,1431.3990442672052,1.724238988177634,167,3.150943396226415,587.25,382.63,0.6513981615868408,2,High-Volume Core Lanes,Low,Maintain dedicated batch production
+Wicked Choccy's,Interior,Second Class,177,1389.4091368381507,4.1867384829631,704,3.977401129943503,2450.5,1595.94,0.6511082138200782,2,High-Volume Core Lanes,Low,Maintain dedicated batch production
+Wicked Choccy's,Interior,Standard Class,596,1392.7910881784687,5.6939194447846555,2228,3.738255033557047,7779.5,5067.26,0.6512269833075203,3,Moderate Lead-Time Bottleneck,Medium,Evaluate factory switch or expedited logistics
+Wicked Choccy's,Pacific,First Class,195,3403.610272244317,3.6718928819914836,745,3.8205128205128207,2606.25,1697.75,0.651250493096647,0,Optimal Low-Friction Routes,Low,Sustain current operational parameters
+Wicked Choccy's,Pacific,Same Day,76,3539.054915444322,2.7973844472882767,294,3.8684210526315788,1048.0,683.24,0.6516599190283401,0,Optimal Low-Friction Routes,Low,Sustain current operational parameters
+Wicked Choccy's,Pacific,Second Class,256,3479.8349333884335,5.217573655322908,1009,3.94140625,3509.25,2285.39,0.651201923076923,0,Optimal Low-Friction Routes,Low,Sustain current operational parameters
+Wicked Choccy's,Pacific,Standard Class,815,3422.9128774816045,6.699222336530296,3253,3.9914110429447853,11362.25,7401.03,0.6513047034764827,3,Moderate Lead-Time Bottleneck,Medium,Evaluate factory switch or expedited logistics

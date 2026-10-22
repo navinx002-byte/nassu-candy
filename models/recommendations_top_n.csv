@@ -1,0 +1,6 @@
+Product Name,Division,Current Factory,Recommended Factory,Current Lead Time (Days),Recommended Lead Time (Days),Lead Time Improvement (%),Distance Reduction (%),Est. Profit Gain ($),Composite Score,Risk Level,Confidence Score (%)
+Fun Dip,Sugar,Sugar Shack,Secret Factory,4.68,4.49,3.93,47.47,4.54,95.0,Low (Recommended Efficiency Gain),80.0
+Fizzy Lifting Drinks,Sugar,Sugar Shack,Secret Factory,4.89,4.74,2.98,31.9,9.09,89.67,Low (Recommended Efficiency Gain),80.1
+Nerds,Sugar,Sugar Shack,Secret Factory,5.83,5.64,3.4,28.99,4.47,88.74,Low (Recommended Efficiency Gain),80.1
+SweeTARTS,Sugar,Sugar Shack,The Other Factory,5.47,5.29,3.34,26.09,15.72,87.22,Low (Recommended Efficiency Gain),80.2
+Laffy Taffy,Sugar,Sugar Shack,Secret Factory,5.0,4.86,2.74,26.61,10.89,86.72,Low (Recommended Efficiency Gain),80.2

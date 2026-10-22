@@ -1,0 +1,76 @@
+Product Name,Division,Current Factory,Candidate Factory,Is Current,Current Avg Lead Time (Days),Predicted Lead Time (Days),Lead Time Delta (Days),Lead Time Reduction (%),Current Avg Distance (km),Simulated Avg Distance (km),Distance Reduction (%),Current Total Profit ($),Simulated Total Profit ($),Profit Delta ($),Profit Impact (%),Divisional Fit,Risk Tier,Composite Score,Confidence Score (%),Order Count
+Wonka Bar - Milk Chocolate,Chocolate,Wicked Choccy's,Lot's O' Nuts,False,4.99,5.16,0.17,-3.34,1839.7,2158.4,-17.32,17443.37,15335.51,-2107.86,-12.08,Native,Medium (Margin Contraction),7.16,98.5,2137
+Wonka Bar - Milk Chocolate,Chocolate,Wicked Choccy's,Wicked Choccy's,True,4.99,4.99,-0.0,0.04,1839.7,1839.7,0.0,17443.37,17443.37,0.0,0.0,Native,Baseline (Current State),50.05,98.5,2137
+Wonka Bar - Milk Chocolate,Chocolate,Wicked Choccy's,Sugar Shack,False,4.99,4.95,-0.04,0.86,1839.7,1843.4,-0.2,17443.37,17418.63,-24.74,-0.14,Requires Tooling,High (Facility Re-tooling Required),27.91,98.5,2137
+Wonka Bar - Milk Chocolate,Chocolate,Wicked Choccy's,Secret Factory,False,4.99,4.85,-0.13,2.7,1839.7,1502.6,18.32,17443.37,19672.4,2229.03,12.78,Requires Tooling,High (Facility Re-tooling Required),51.9,98.5,2137
+Wonka Bar - Milk Chocolate,Chocolate,Wicked Choccy's,The Other Factory,False,4.99,4.87,-0.12,2.32,1839.7,1544.9,16.02,17443.37,19392.71,1949.34,11.18,Requires Tooling,High (Facility Re-tooling Required),50.84,98.5,2137
+Wonka Bar - Triple Dazzle Caramel,Chocolate,Wicked Choccy's,Lot's O' Nuts,False,5.01,5.12,0.12,-2.32,1876.4,2103.4,-12.09,18610.2,17231.28,-1378.92,-7.41,Native,Medium (Margin Contraction),17.53,98.5,2015
+Wonka Bar - Triple Dazzle Caramel,Chocolate,Wicked Choccy's,Wicked Choccy's,True,5.01,5.0,-0.01,0.16,1876.4,1876.4,0.0,18610.2,18610.2,0.0,0.0,Native,Baseline (Current State),50.19,98.5,2015
+Wonka Bar - Triple Dazzle Caramel,Chocolate,Wicked Choccy's,Sugar Shack,False,5.01,4.94,-0.06,1.21,1876.4,1856.4,1.07,18610.2,18731.86,121.66,0.65,Requires Tooling,High (Facility Re-tooling Required),29.89,98.5,2015
+Wonka Bar - Triple Dazzle Caramel,Chocolate,Wicked Choccy's,Secret Factory,False,5.01,4.86,-0.15,2.91,1876.4,1528.0,18.57,18610.2,20727.56,2117.36,11.38,Requires Tooling,High (Facility Re-tooling Required),52.15,98.5,2015
+Wonka Bar - Triple Dazzle Caramel,Chocolate,Wicked Choccy's,The Other Factory,False,5.01,4.88,-0.13,2.55,1876.4,1568.5,16.41,18610.2,20481.37,1871.17,10.05,Requires Tooling,High (Facility Re-tooling Required),51.16,98.5,2015
+Wonka Bar - Nutty Crunch Surprise,Chocolate,Lot's O' Nuts,Lot's O' Nuts,True,5.07,5.07,-0.0,0.01,2121.0,2121.0,0.0,16819.95,16819.95,0.0,0.0,Native,Baseline (Current State),50.01,98.5,1810
+Wonka Bar - Nutty Crunch Surprise,Chocolate,Lot's O' Nuts,Wicked Choccy's,False,5.07,4.92,-0.15,3.03,2121.0,1834.4,13.51,16819.95,18368.38,1548.43,9.21,Native,Low (Recommended Efficiency Gain),78.55,98.5,1810
+Wonka Bar - Nutty Crunch Surprise,Chocolate,Lot's O' Nuts,Sugar Shack,False,5.07,4.88,-0.19,3.83,2121.0,1838.9,13.3,16819.95,18344.33,1524.38,9.06,Requires Tooling,High (Facility Re-tooling Required),49.66,98.5,1810
+Wonka Bar - Nutty Crunch Surprise,Chocolate,Lot's O' Nuts,Secret Factory,False,5.07,4.78,-0.29,5.73,2121.0,1487.9,29.85,16819.95,20240.75,3420.8,20.34,Requires Tooling,High (Facility Re-tooling Required),58.11,98.5,1810
+Wonka Bar - Nutty Crunch Surprise,Chocolate,Lot's O' Nuts,The Other Factory,False,5.07,4.8,-0.28,5.44,2121.0,1521.1,28.28,16819.95,20061.37,3241.42,19.27,Requires Tooling,High (Facility Re-tooling Required),57.36,98.5,1810
+Wonka Bar -Scrumdiddlyumptious,Chocolate,Lot's O' Nuts,Lot's O' Nuts,True,5.09,5.09,-0.0,0.01,2138.4,2138.4,0.0,19357.5,19357.5,0.0,0.0,Native,Baseline (Current State),50.01,98.5,2064
+Wonka Bar -Scrumdiddlyumptious,Chocolate,Lot's O' Nuts,Wicked Choccy's,False,5.09,4.94,-0.15,2.96,2138.4,1856.8,13.17,19357.5,21101.5,1744.0,9.01,Native,Low (Recommended Efficiency Gain),77.81,98.5,2064
+Wonka Bar -Scrumdiddlyumptious,Chocolate,Lot's O' Nuts,Sugar Shack,False,5.09,4.91,-0.19,3.67,2138.4,1871.0,12.5,19357.5,21013.39,1655.89,8.55,Requires Tooling,High (Facility Re-tooling Required),48.44,98.5,2064
+Wonka Bar -Scrumdiddlyumptious,Chocolate,Lot's O' Nuts,Secret Factory,False,5.09,4.82,-0.28,5.42,2138.4,1535.1,28.21,19357.5,23094.13,3736.63,19.3,Requires Tooling,High (Facility Re-tooling Required),57.32,98.5,2064
+Wonka Bar -Scrumdiddlyumptious,Chocolate,Lot's O' Nuts,The Other Factory,False,5.09,4.83,-0.26,5.18,2138.4,1563.7,26.88,19357.5,22917.48,3559.98,18.39,Requires Tooling,High (Facility Re-tooling Required),56.69,98.5,2064
+Wonka Bar - Fudge Mallows,Chocolate,Lot's O' Nuts,Lot's O' Nuts,True,5.12,5.12,-0.0,0.06,2159.5,2159.5,0.0,16593.6,16593.6,0.0,0.0,Native,Baseline (Current State),50.08,98.5,1818
+Wonka Bar - Fudge Mallows,Chocolate,Lot's O' Nuts,Wicked Choccy's,False,5.12,4.94,-0.18,3.5,2159.5,1826.3,15.43,16593.6,18436.67,1843.07,11.11,Native,Low (Recommended Efficiency Gain),82.09,98.5,1818
+Wonka Bar - Fudge Mallows,Chocolate,Lot's O' Nuts,Sugar Shack,False,5.12,4.91,-0.21,4.05,2159.5,1856.0,14.06,16593.6,18272.53,1678.93,10.12,Requires Tooling,High (Facility Re-tooling Required),51.61,98.5,1818
+Wonka Bar - Fudge Mallows,Chocolate,Lot's O' Nuts,Secret Factory,False,5.12,4.82,-0.3,5.92,2159.5,1506.8,30.23,16593.6,20204.02,3610.42,21.76,Requires Tooling,High (Facility Re-tooling Required),58.39,98.5,1818
+Wonka Bar - Fudge Mallows,Chocolate,Lot's O' Nuts,The Other Factory,False,5.12,4.83,-0.29,5.65,2159.5,1538.9,28.74,16593.6,20025.97,3432.37,20.68,Requires Tooling,High (Facility Re-tooling Required),57.68,98.5,1818
+Wonka Gum,Other,Secret Factory,Lot's O' Nuts,False,4.45,4.89,0.44,-9.84,1343.6,2281.2,-69.78,310.7,-47.83,-358.53,-115.4,Requires Tooling,High (Facility Re-tooling Required),0.0,81.8,120
+Wonka Gum,Other,Secret Factory,Wicked Choccy's,False,4.45,4.54,0.08,-1.86,1343.6,1581.6,-17.71,310.7,219.69,-91.01,-29.29,Requires Tooling,High (Facility Re-tooling Required),3.98,81.8,120
+Wonka Gum,Other,Secret Factory,Sugar Shack,False,4.45,4.59,0.14,-3.13,1343.6,1784.8,-32.84,310.7,141.98,-168.72,-54.3,Native,Medium (Margin Contraction),0.0,81.8,120
+Wonka Gum,Other,Secret Factory,Secret Factory,True,4.45,4.45,-0.0,0.03,1343.6,1343.6,0.0,310.7,310.7,0.0,0.0,Native,Baseline (Current State),50.03,81.8,120
+Wonka Gum,Other,Secret Factory,The Other Factory,False,4.45,4.46,0.01,-0.16,1343.6,1364.4,-1.55,310.7,302.74,-7.96,-2.56,Native,Medium (Margin Contraction),37.61,81.8,120
+Kazookles,Other,The Other Factory,Lot's O' Nuts,False,4.65,4.97,0.32,-6.83,1574.7,2256.7,-43.31,92.75,-109.66,-202.41,-218.23,Requires Tooling,High (Facility Re-tooling Required),0.0,81.4,96
+Kazookles,Other,The Other Factory,Wicked Choccy's,False,4.65,4.74,0.09,-1.92,1574.7,1816.9,-15.38,92.75,20.85,-71.9,-77.52,Requires Tooling,High (Facility Re-tooling Required),4.69,81.4,96
+Kazookles,Other,The Other Factory,Sugar Shack,False,4.65,4.77,0.11,-2.44,1574.7,1953.5,-24.06,92.75,-19.69,-112.44,-121.23,Native,Medium (Margin Contraction),4.92,81.4,96
+Kazookles,Other,The Other Factory,Secret Factory,False,4.65,4.67,0.01,-0.29,1574.7,1595.0,-1.29,92.75,86.73,-6.02,-6.49,Native,Medium (Margin Contraction),27.77,81.4,96
+Kazookles,Other,The Other Factory,The Other Factory,True,4.65,4.66,0.0,-0.04,1574.7,1574.7,0.0,92.75,92.75,0.0,0.0,Native,Baseline (Current State),49.95,81.4,96
+Lickable Wallpaper,Other,Secret Factory,Lot's O' Nuts,False,4.63,4.96,0.33,-7.05,1494.8,2185.0,-46.17,3930.0,3713.01,-216.99,-5.52,Requires Tooling,High (Facility Re-tooling Required),2.28,81.4,94
+Lickable Wallpaper,Other,Secret Factory,Wicked Choccy's,False,4.63,4.83,0.2,-4.38,1494.8,1959.0,-31.05,3930.0,3784.06,-145.94,-3.71,Requires Tooling,High (Facility Re-tooling Required),7.81,81.4,94
+Lickable Wallpaper,Other,Secret Factory,Sugar Shack,False,4.63,4.7,0.07,-1.52,1494.8,1775.7,-18.79,3930.0,3841.67,-88.33,-2.25,Native,Medium (Margin Contraction),28.08,81.4,94
+Lickable Wallpaper,Other,Secret Factory,Secret Factory,True,4.63,4.64,0.01,-0.18,1494.8,1494.8,0.0,3930.0,3930.0,0.0,0.0,Native,Baseline (Current State),49.78,81.4,94
+Lickable Wallpaper,Other,Secret Factory,The Other Factory,False,4.63,4.71,0.07,-1.59,1494.8,1631.7,-9.16,3930.0,3886.96,-43.04,-1.1,Native,Low (Recommended Efficiency Gain),35.7,81.4,94
+Fizzy Lifting Drinks,Sugar,Sugar Shack,Lot's O' Nuts,False,4.89,5.36,0.47,-9.72,1695.9,2461.3,-45.13,47.25,34.39,-12.86,-27.21,Requires Tooling,High (Facility Re-tooling Required),0.0,80.1,6
+Fizzy Lifting Drinks,Sugar,Sugar Shack,Wicked Choccy's,False,4.89,4.77,-0.12,2.37,1695.9,1281.9,24.41,47.25,54.2,6.95,14.72,Requires Tooling,High (Facility Re-tooling Required),53.61,80.1,6
+Fizzy Lifting Drinks,Sugar,Sugar Shack,Sugar Shack,True,4.89,4.93,0.04,-0.9,1695.9,1695.9,0.0,47.25,47.25,0.0,0.0,Native,Baseline (Current State),48.87,80.1,6
+Fizzy Lifting Drinks,Sugar,Sugar Shack,Secret Factory,False,4.89,4.74,-0.15,2.98,1695.9,1155.0,31.9,47.25,56.34,9.09,19.23,Native,Low (Recommended Efficiency Gain),89.67,80.1,6
+Fizzy Lifting Drinks,Sugar,Sugar Shack,The Other Factory,False,4.89,4.8,-0.09,1.86,1695.9,1269.8,25.12,47.25,54.41,7.16,15.15,Native,Low (Recommended Efficiency Gain),84.89,80.1,6
+Laffy Taffy,Sugar,Sugar Shack,Lot's O' Nuts,False,5.0,5.64,0.64,-12.81,1894.4,3017.7,-59.29,33.48,9.22,-24.26,-72.47,Requires Tooling,High (Facility Re-tooling Required),0.0,80.2,10
+Laffy Taffy,Sugar,Sugar Shack,Wicked Choccy's,False,5.0,4.76,-0.24,4.79,1894.4,1247.2,34.16,33.48,47.46,13.98,41.75,Requires Tooling,High (Facility Re-tooling Required),58.75,80.2,10
+Laffy Taffy,Sugar,Sugar Shack,Sugar Shack,True,5.0,5.04,0.03,-0.69,1894.4,1894.4,0.0,33.48,33.48,0.0,0.0,Native,Baseline (Current State),49.13,80.2,10
+Laffy Taffy,Sugar,Sugar Shack,Secret Factory,False,5.0,4.86,-0.14,2.74,1894.4,1390.4,26.61,33.48,44.37,10.89,32.52,Native,Low (Recommended Efficiency Gain),86.72,80.2,10
+Laffy Taffy,Sugar,Sugar Shack,The Other Factory,False,5.0,4.9,-0.11,2.11,1894.4,1457.3,23.08,33.48,42.92,9.44,28.2,Native,Low (Recommended Efficiency Gain),84.18,80.2,10
+SweeTARTS,Sugar,Sugar Shack,Lot's O' Nuts,False,5.47,5.81,0.34,-6.26,1837.1,2466.0,-34.24,28.7,8.07,-20.63,-71.88,Requires Tooling,High (Facility Re-tooling Required),0.0,80.2,10
+SweeTARTS,Sugar,Sugar Shack,Wicked Choccy's,False,5.47,5.35,-0.12,2.25,1837.1,1542.9,16.01,28.7,38.35,9.65,33.62,Requires Tooling,High (Facility Re-tooling Required),50.78,80.2,10
+SweeTARTS,Sugar,Sugar Shack,Sugar Shack,True,5.47,5.45,-0.02,0.39,1837.1,1837.1,0.0,28.7,28.7,0.0,0.0,Native,Baseline (Current State),50.49,80.2,10
+SweeTARTS,Sugar,Sugar Shack,Secret Factory,False,5.47,5.29,-0.18,3.31,1837.1,1358.3,26.06,28.7,44.4,15.7,54.72,Native,Low (Recommended Efficiency Gain),87.16,80.2,10
+SweeTARTS,Sugar,Sugar Shack,The Other Factory,False,5.47,5.29,-0.18,3.34,1837.1,1357.7,26.09,28.7,44.42,15.72,54.78,Native,Low (Recommended Efficiency Gain),87.22,80.2,10
+Nerds,Sugar,Sugar Shack,Lot's O' Nuts,False,5.83,6.62,0.79,-13.49,1926.5,3419.4,-77.49,7.0,-4.94,-11.94,-170.61,Requires Tooling,High (Facility Re-tooling Required),0.0,80.1,4
+Nerds,Sugar,Sugar Shack,Wicked Choccy's,False,5.83,5.48,-0.35,6.05,1926.5,1118.4,41.94,7.0,13.46,6.46,92.35,Requires Tooling,High (Facility Re-tooling Required),60.0,80.1,4
+Nerds,Sugar,Sugar Shack,Sugar Shack,True,5.83,5.83,0.0,-0.0,1926.5,1926.5,0.0,7.0,7.0,0.0,0.0,Native,Baseline (Current State),50.0,80.1,4
+Nerds,Sugar,Sugar Shack,Secret Factory,False,5.83,5.64,-0.2,3.4,1926.5,1368.0,28.99,7.0,11.47,4.47,63.83,Native,Low (Recommended Efficiency Gain),88.74,80.1,4
+Nerds,Sugar,Sugar Shack,The Other Factory,False,5.83,5.7,-0.14,2.32,1926.5,1499.5,22.16,7.0,10.42,3.42,48.8,Native,Low (Recommended Efficiency Gain),83.98,80.1,4
+Hair Toffee,Sugar,The Other Factory,Lot's O' Nuts,False,4.2,4.28,0.08,-1.92,1742.1,1785.9,-2.51,59.5,58.9,-0.6,-1.0,Requires Tooling,High (Facility Re-tooling Required),23.5,80.1,4
+Hair Toffee,Sugar,The Other Factory,Wicked Choccy's,False,4.2,4.35,0.15,-3.55,1742.1,1951.9,-12.04,59.5,56.65,-2.85,-4.79,Requires Tooling,High (Facility Re-tooling Required),12.91,80.1,4
+Hair Toffee,Sugar,The Other Factory,Sugar Shack,False,4.2,4.37,0.16,-3.88,1742.1,2067.4,-18.67,59.5,55.08,-4.42,-7.43,Native,Medium (Margin Contraction),12.23,80.1,4
+Hair Toffee,Sugar,The Other Factory,Secret Factory,False,4.2,4.29,0.09,-2.14,1742.1,1764.3,-1.27,59.5,59.2,-0.3,-0.51,Native,Low (Recommended Efficiency Gain),40.42,80.1,4
+Hair Toffee,Sugar,The Other Factory,The Other Factory,True,4.2,4.28,0.08,-1.84,1742.1,1742.1,0.0,59.5,59.5,0.0,0.0,Native,Baseline (Current State),47.7,80.1,4
+Everlasting Gobstopper,Sugar,Secret Factory,Lot's O' Nuts,False,4.75,4.87,0.12,-2.58,1437.8,1728.6,-20.22,104.0,100.98,-3.02,-2.91,Requires Tooling,High (Facility Re-tooling Required),14.11,80.0,3
+Everlasting Gobstopper,Sugar,Secret Factory,Wicked Choccy's,False,4.75,4.73,-0.02,0.52,1437.8,1454.0,-1.13,104.0,103.83,-0.17,-0.16,Requires Tooling,High (Facility Re-tooling Required),27.29,80.0,3
+Everlasting Gobstopper,Sugar,Secret Factory,Sugar Shack,False,4.75,4.91,0.16,-3.29,1437.8,1910.7,-32.89,104.0,99.08,-4.92,-4.73,Native,Medium (Margin Contraction),12.62,80.0,3
+Everlasting Gobstopper,Sugar,Secret Factory,Secret Factory,True,4.75,4.75,0.0,-0.0,1437.8,1437.8,0.0,104.0,104.0,0.0,0.0,Native,Baseline (Current State),50.0,80.0,3
+Everlasting Gobstopper,Sugar,Secret Factory,The Other Factory,False,4.75,4.6,-0.15,3.18,1437.8,1133.1,21.19,104.0,107.17,3.17,3.05,Native,Low (Recommended Efficiency Gain),67.19,80.0,3
+Fun Dip,Sugar,Sugar Shack,Lot's O' Nuts,False,4.68,5.41,0.74,-15.75,1493.7,2702.7,-80.94,4.8,-2.94,-7.74,-161.2,Requires Tooling,High (Facility Re-tooling Required),0.0,80.0,3
+Fun Dip,Sugar,Sugar Shack,Wicked Choccy's,False,4.68,4.57,-0.1,2.22,1493.7,1014.2,32.1,4.8,7.87,3.07,63.94,Requires Tooling,High (Facility Re-tooling Required),55.99,80.0,3
+Fun Dip,Sugar,Sugar Shack,Sugar Shack,True,4.68,4.76,0.09,-1.89,1493.7,1493.7,0.0,4.8,4.8,0.0,0.0,Native,Baseline (Current State),47.64,80.0,3
+Fun Dip,Sugar,Sugar Shack,Secret Factory,False,4.68,4.49,-0.18,3.93,1493.7,784.7,47.47,4.8,9.34,4.54,94.54,Native,Low (Recommended Efficiency Gain),95.0,80.0,3
+Fun Dip,Sugar,Sugar Shack,The Other Factory,False,4.68,4.53,-0.14,3.06,1493.7,871.2,41.68,4.8,8.78,3.98,83.01,Native,Low (Recommended Efficiency Gain),94.66,80.0,3
